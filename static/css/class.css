@@ -14,8 +14,8 @@
 }
 
 .navigation {
-    /* padding-left:100px /*Shift the navigation along by 100px so that it is more in the middle*/ */
-    text-align:center;
+    text-align: center;
+    clear: left;
 }
 
 .footer {
@@ -31,4 +31,12 @@
 
 .social {
     text-align: center;
+    z-index:-1;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+hr {
+    clear: left;
 }
