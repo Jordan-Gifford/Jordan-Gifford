@@ -1,0 +1,24 @@
+.header {
+text-align:center;/*Centre the text*/
+}
+.navigation a{
+text-decoration:none;/*Remove underline*/
+font-weight:bold; /*turn the navigation text/links into bold font*/
+color: black;/*output the text in black*/
+padding-left:10px; /*Give a space of 10px between each link*/
+}
+.navigation a:hover{
+text-decoration:underline; /*When mouse hovers over link underline*/
+}
+.navigation{
+padding-left:100px /*Shift the navigation along by 100px so that it is more in the middle*/
+}
+.footer{
+    clear:both;
+    padding-top:2px;
+}
+.footer p{
+    font-size:10px;
+
+    text-align:left;
+}

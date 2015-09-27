@@ -1,0 +1,43 @@
+body{
+background-color:#E8E8F0;
+}
+#main_content p {
+padding-left:110px;
+padding-right:50px;
+font-size: 15px;
+font-family:Verdana, Geneva, sans-serif;
+}
+h2{
+font-size: 17px;
+font-family:Verdana, Geneva, sans-serif;
+margin-bottom: -5px;
+}
+#main_content h2{
+padding-left:45px;
+}
+#language_app{
+ float:left;
+  width:60%;
+}
+#language_app p{
+padding-right:130px;
+font-size: 15px;
+font-family:Verdana, Geneva, sans-serif;
+}
+#encryption_app{
+float:right;
+  width:40%;  
+}
+#encryption_app p{
+padding-right:25px;
+font-size: 15px;
+font-family:Verdana, Geneva, sans-serif;
+}
+#resize{
+  width:150px;
+}
+h3{
+margin-bottom: -15px;/*Removing the gap between the text and the sub headings.*/
+font-size: 17px;
+font-family:Verdana, Geneva, sans-serif;
+}
