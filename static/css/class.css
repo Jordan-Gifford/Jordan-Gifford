@@ -11,7 +11,8 @@ padding-left:10px; /*Give a space of 10px between each link*/
 text-decoration:underline; /*When mouse hovers over link underline*/
 }
 .navigation{
-padding-left:100px /*Shift the navigation along by 100px so that it is more in the middle*/
+/* padding-left:100px /*Shift the navigation along by 100px so that it is more in the middle*/ */
+    text-align:center;
 }
 .footer{
     clear:both;
@@ -21,4 +22,8 @@ padding-left:100px /*Shift the navigation along by 100px so that it is more in t
     font-size:10px;
 
     text-align:left;
+}
+
+.social {
+    text-align: center;
 }
