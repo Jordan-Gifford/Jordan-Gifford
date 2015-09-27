@@ -1,4 +1,7 @@
 .skill{
-width:10%;
+width:7%;
 float:left;
+}
+.skill p{
+margin-top:0px;
 }
