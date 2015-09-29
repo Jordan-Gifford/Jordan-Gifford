@@ -1,0 +1,13 @@
+.skill{
+width:10%;
+float:left;
+}
+.skill p{
+margin-top:0px;
+margin-bottom:0px;
+text-align:center;
+padding-top:1%;
+}
+.skill p a{
+text-decoration:none;
+}
