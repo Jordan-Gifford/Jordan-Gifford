@@ -2,7 +2,7 @@
     text-align:center;/*Centre the text*/
 }
 
-.navigation a{
+.navigation a {
     text-decoration:none; /*Remove underline*/
     font-weight:bold; /*turn the navigation text/links into bold font*/
     color: black; /*output the text in black*/
@@ -31,16 +31,16 @@
 
 .social {
     text-align: center;
-    z-index:-1;
     position: fixed;
     right: 0;
     top: 0;
 }
 
-.social img {
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
+.facebook-icon {
+    display: block;
+    background-image: url('../../static/images/facebook_circle_color.svg');
+    width:192px;
+    height: 64px;
 }
 
 hr {
