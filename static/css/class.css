@@ -34,13 +34,14 @@
     position: fixed;
     right: 0;
     top: 0;
+    padding-top: 3px;
+    padding-right: 3px;
 }
 
-.facebook-icon {
+.social-icon {
     display: block;
-    background-image: url('../../static/images/facebook_circle_color.svg');
-    width:192px;
-    height: 64px;
+    width:24px;
+    height:24px;
 }
 
 hr {
