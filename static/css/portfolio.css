@@ -1,13 +1,18 @@
-.skill{
-width:10%;
-float:left;
+#skills {
+    margin-left:40px;
 }
-.skill p{
-margin-top:0px;
-margin-bottom:0px;
-text-align:center;
-padding-top:1%;
+.skill {
+    width:10%;
+    float:left;
+    text-align: center;
+    margin: 10px;
 }
-.skill p a{
-text-decoration:none;
+.skill p {
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align:center;
+    padding-top:1%;
+}
+.skill p a {
+    text-decoration:none;
 }
