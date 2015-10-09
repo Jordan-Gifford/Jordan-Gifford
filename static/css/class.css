@@ -1,3 +1,6 @@
+body{
+background-color:#E8E8F0;
+}
 .header {
     text-align:center;/*Centre the text*/
 }
@@ -28,7 +31,6 @@ font-weight:400;
 
 .footer p {
     font-size:10px;
-
     text-align:left;
 }
 p{

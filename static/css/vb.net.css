@@ -1,20 +1,12 @@
-body{
-background-color:#E8E8F0;
-}
 #main_content p {
 padding-left:110px;
 padding-right:50px;
-font-size: 15px;
-font-family:Verdana, Geneva, sans-serif;
 margin-top:0px;
-}
-h2{
-font-size: 17px;
-font-family:Verdana, Geneva, sans-serif;
 }
 #main_content h2{
 padding-left:108px;
 margin-bottom:0px;
+margin-top:1%;
 }
 #language_app{
  float:left;
@@ -24,8 +16,7 @@ margin-bottom:0px;
 #language_app p{
 padding-right:150px;
 margin-top:0px;
-font-size: 15px;
-font-family:Verdana, Geneva, sans-serif;
+margin-bottom:1%;
 }
 #encryption_app{
 float:right;
@@ -34,14 +25,12 @@ float:right;
 #encryption_app p{
 padding-right:25px;
 margin-top:0px;
-font-size: 15px;
-font-family:Verdana, Geneva, sans-serif;
+margin-bottom:1%;
 }
 #resize{
   width:150px;
 }
 h3{
+margin-top:2%;
 margin-bottom:0px;
-font-size: 17px;
-font-family:Verdana, Geneva, sans-serif;
 }
