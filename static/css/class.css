@@ -1,7 +1,10 @@
 .header {
     text-align:center;/*Centre the text*/
 }
-
+h1{
+font-family: 'Aldrich', sans-serif;
+font-weight:400;
+}
 .navigation a {
     text-decoration:none; /*Remove underline*/
     font-weight:bold; /*turn the navigation text/links into bold font*/
@@ -28,7 +31,20 @@
 
     text-align:left;
 }
-
+p{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-weight:400;
+}
+h2{
+font-family: 'Oswald', sans-serif;
+font-weight:700;
+text-decoration:underline;
+}
+h3{
+font-family: 'Oswald', sans-serif;
+font-weight:700;
+text-decoration:underline;
+}
 .social {
     text-align: center;
     position: fixed;
