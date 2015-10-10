@@ -1,11 +1,10 @@
-body{
-background-color:#E8E8F0;
-}
 #java {
 width:40%;
-padding-left:30%;*/
+padding-left:8%;
+float:left;
 }
 #java h2{
+margin-top:1.5%;
 margin-bottom:0px;
 }
 #java p{
@@ -14,13 +13,31 @@ margin-bottom:0px;
 }
 #star_uml{
 width:40%;
-padding-left:30%;
+float:right;
+padding-right:7%;
+margin-top:0.6%;
 }
 #star_uml h3{
 margin-top:1.5%;
-margin-bottom:0px
+margin-bottom:0px;
 }
 #star_uml p{
 margin-top:0px;
 margin-bottom:0px;
+}
+#images{
+}
+img{
+padding-top:1%;
+width:60%;
+}
+#ucd_image{
+width:40%;
+float:left;
+padding-left:13%;
+}
+#ld_image{
+width:30%;
+float:right;
+padding-right:4%;
 }
