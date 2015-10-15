@@ -5,9 +5,13 @@ padding-left:5%;
 }
 #personal p{
 margin-top:0px;
-padding-top:2%;
+margin-bottom:3.1%;
+padding-top:1%;
 }
 #personal_image{
 float:right;
 width:40%;
+}
+#personal h3{
+margin-top:0px;
 }
