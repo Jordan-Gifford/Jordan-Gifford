@@ -1,5 +1,9 @@
 #p_m_intro{
 width:40%;
+padding-left:40%;
+}
+#p_m_intro h2{
+margin-bottom:0px;
 }
 #p_m_intro p{
 margin-top:0px;
