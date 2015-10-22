@@ -1,10 +1,25 @@
+<<<<<<< HEAD
+=======
+body{
+background-color:#E8E8F0;
+}
+@media only screen and (max width:1366px){/*laptop dimension*/
+body{
+background-color:#Yellow;
+}
+}
+@media screen and (min width:) and (max width:){ /*Style details for 21" monitor*/
+>>>>>>> 6aa06ceba1191b4c52eb71b79e4122ee0e93cd68
 
 @media screen and (min width:240px) and (max width:420px) and (orienatation: Portrait){/*Smart phone dimensions- Portrait */
 
+<<<<<<< HEAD
 }
 @media screen and (min width:1200px)(max width:1366px)
 {/*laptop dimension*/
 }
 @media screen and (min width:) and (max width:){ /*Style details for 21" monitor*/
 
+=======
+>>>>>>> 6aa06ceba1191b4c52eb71b79e4122ee0e93cd68
 }
