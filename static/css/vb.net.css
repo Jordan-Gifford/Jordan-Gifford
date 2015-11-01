@@ -1,26 +1,26 @@
 #main_content p {
-padding-left:110px;
-padding-right:50px;
+padding-left:15%;
+padding-right:15%;
 margin-top:0px;
 }
 #main_content h2{
-padding-left:108px;
+padding-left:15%;
 margin-bottom:0px;
 margin-top:1%;
 }
 #language_app{
  float:left;
-  width:50%;
- padding-left:11%;
+  width:33%;
+ padding-left:15%;
 }
 #language_app p{
-padding-right:150px;
 margin-top:0px;
 margin-bottom:1%;
 }
 #encryption_app{
 float:right;
-  width:39%; 
+  width:39%;
+/*padding-right:20%;*/  
 }
 #encryption_app p{
 padding-right:25px;

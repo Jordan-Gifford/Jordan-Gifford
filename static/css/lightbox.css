@@ -1,0 +1,26 @@
+#lightbox{/*Create an ID called lightbox*/
+	background-color:#eee;/*Background colour of #eee*/
+	padding: 10px;/* Create a Padding of 10px*/
+	border-bottom: 2px solid #666;/*Set the bottom border at 2px thick with a solid colour*/
+	border-right: 2px solid #666;/*Set the right border at 2px thick with a solid colour*/
+	}
+#lightboxDetails{/*Create an ID called lightboxDetails*/
+	font-size: 0.8em;/*Pick a suitable font size*/
+	padding-top: 0.4em; /*Pick a suitable padding*/
+	}	
+#lightboxCaption{ float: left; }/*Create an ID called lightboxCaption and float it left*/
+#keyboardMsg{ float: right; }/*Create an ID called keyboardMsg and float it right*/
+#closeButton{ top: 5px; right: 5px; }/*Create an ID called closeButton. Set top and right margin to 5px*/
+
+#lightbox img{ border: none; clear: both;} /*Create an ID called lightbox, specifically for the image. Clear below*/
+#overlay img{ border: none; }/*Create overlay ID specifically for image.Set the border effect to 0*/
+
+#overlay{ background-image: url(overlay.png); } /*Create an ID called overlay. Set background image to overlay.png*/
+
+* html #overlay{ /*Details of how the overlay will look in HTML*/
+	background-color: #333; /*Give it a background colour of #333*/
+	back\ground-color: transparent;/*Set the background image as transparent*/
+	background-image: url(blank.gif);/*Create a background image*/
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="overlay.png", sizingMethod="scale"); /*Pick a suitable filter*/
+	}
+	
