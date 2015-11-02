@@ -10,7 +10,7 @@ margin-top:1%;
 }
 #language_app{
  float:left;
-  width:33%;
+  width:36%;
  padding-left:15%;
 }
 #language_app p{
@@ -18,9 +18,9 @@ margin-top:0px;
 margin-bottom:1%;
 }
 #encryption_app{
-float:right;
+float:left;
   width:39%;
-/*padding-right:20%;*/  
+padding-left:3%; 
 }
 #encryption_app p{
 padding-right:25px;
