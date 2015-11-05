@@ -12,11 +12,23 @@ margin-top:0px;
 width:57%;
 padding-left:22.1%;
 }
+#fireworks h2{
+margin-bottom:0px;
+}
 #fireworks h3{
+margin-top:0px;
 margin-bottom:0px;
 }
 #fireworks p{
-margin-top:0%;
+margin-top:1%;
+margin-bottom:1%;
+line-height:1.3em;
+}
+#legislation{
+display:none;
+}
+#perm_and_risks{
+display:none;
 }
 #trip_management{
 width:40%;
