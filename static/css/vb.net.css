@@ -1,29 +1,29 @@
 #main_content p {
-padding-left:15%;
-padding-right:15%;
-margin-top:0px;
+padding-left:22%;
+width:65%;
+margin-top:0%;
 }
 #main_content h2{
-padding-left:15%;
+padding-left:22%;
 margin-bottom:0px;
 margin-top:1%;
 }
 #language_app{
  float:left;
-  width:36%;
- padding-left:15%;
+  width:39%;
+ padding-left:22%;
 }
 #language_app p{
 margin-top:0px;
 margin-bottom:1%;
+width:89%;
 }
 #encryption_app{
 float:left;
-  width:39%;
-padding-left:3%; 
+  width:37%;
+padding-left:0.5%; 
 }
 #encryption_app p{
-padding-right:25px;
 margin-top:0px;
 margin-bottom:1%;
 }
@@ -31,5 +31,5 @@ margin-bottom:1%;
   width:150px;
 }
 h3{
-margin-top:2%;
+margin-top:1.5%;
 }

@@ -62,7 +62,14 @@ margin-bottom:0px;
     width:24px;
     height:24px;
 }
-
+.side_nav{
+width:20%;
+height:95%;
+position:absolute;
+}
+.side_nav a{
+display:block;
+}
 hr {
     clear: left;
 }
