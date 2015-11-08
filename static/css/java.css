@@ -1,6 +1,6 @@
 #java {
-width:40%;
-padding-left:8%;
+width:35%;
+padding-left:18%;
 float:left;
 }
 #java h2{
@@ -12,9 +12,9 @@ margin-top:0px;
 margin-bottom:0px;
 }
 #star_uml{
-width:40%;
-float:right;
-padding-right:7%;
+width:35%;
+float:left;
+padding-left:2%;
 margin-top:0.6%;
 }
 #star_uml h3{
@@ -37,6 +37,6 @@ padding-left:13%;
 }
 #ld_image{
 width:30%;
-float:right;
+float:left;
 padding-right:4%;
 }
