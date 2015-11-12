@@ -1,5 +1,6 @@
 body{
 background-color:#E8E8F0;
+margin-bottom:0%;
 }
 .header {
     text-align:center;/*Centre the text*/
@@ -36,11 +37,13 @@ font-weight:400;
 p{
 font-family: 'Yanone Kaffeesatz', sans-serif;
 font-weight:400;
+margin-top:0%;
 }
 h2{
 font-family: 'Oswald', sans-serif;
 font-weight:700;
 text-decoration:underline;
+margin-bottom:0%;
 }
 h3{
 font-family: 'Oswald', sans-serif;
@@ -64,11 +67,15 @@ margin-bottom:0px;
 }
 .side_nav{
 width:20%;
-height:95%;
 position:absolute;
+float:left;
 }
 .side_nav a{
 display:block;
+}
+.main_content{
+padding-left:22%;
+padding-right:14%;
 }
 hr {
     clear: left;
