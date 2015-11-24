@@ -80,3 +80,51 @@ padding-right:14%;
 hr {
     clear: left;
 }
+/* Some basic styling to notify users
+   about the tooltips*/
+.tooltip {
+  color: #900;
+  text-decoration: none;
+}
+ 
+.tooltip:hover {
+  color: red;
+  position: relative;
+}
+ /* Tooltip on Bottom. Code taken from http://webdesignerhut.com/pure-css-tooltips-with-html5-data-attribute/?ref=example . */
+.tooltip-bottom[data-tooltip]:hover:after {
+  content: attr(data-tooltip);
+  padding: 1px 8px;
+  position: absolute;
+  width: 10em; 
+ left: 0;
+  top: 90%;
+  white-space: pre-line;
+  background-color: #000;
+  color: #fff;
+}
+/* Tooltip on Top */
+.tooltip-top[data-tooltip]:hover:after {
+  content: attr(data-tooltip);
+  padding: 4px 8px;
+  position: absolute;
+  width: 10em; 
+  left: 0;
+  bottom: 100%;
+  white-space: pre-wrap;
+  z-index: 20px;
+  background-color: #000;
+  color: #fff;
+}
+/* Tooltip on Left */
+.tooltip-left[data-tooltip]:hover:after {
+  content: attr(data-tooltip);
+  padding: 4px 8px;
+  position: absolute;
+  right: 100%;
+  white-space: nowrap;
+  z-index: 20px;
+ 
+  background-color: #000;
+  color: #fff;
+}
