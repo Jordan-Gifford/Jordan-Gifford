@@ -1,7 +1,14 @@
+body{
+background-color:#E8E8F0;
+margin-bottom:0%;
+}
 .header {
     text-align:center;/*Centre the text*/
 }
-
+h1{
+font-family: 'Aldrich', sans-serif;
+font-weight:400;
+}
 .navigation a {
     text-decoration:none; /*Remove underline*/
     font-weight:bold; /*turn the navigation text/links into bold font*/
@@ -25,10 +32,25 @@
 
 .footer p {
     font-size:10px;
-
     text-align:left;
 }
-
+p{
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-weight:400;
+margin-top:0%;
+}
+h2{
+font-family: 'Oswald', sans-serif;
+font-weight:700;
+text-decoration:underline;
+margin-bottom:0%;
+}
+h3{
+font-family: 'Oswald', sans-serif;
+font-weight:700;
+text-decoration:underline;
+margin-bottom:0px;
+}
 .social {
     text-align: center;
     position: fixed;
@@ -43,7 +65,66 @@
     width:24px;
     height:24px;
 }
-
+.side_nav{
+width:20%;
+position:absolute;
+float:left;
+}
+.side_nav a{
+display:block;
+}
+.main_content{
+padding-left:22%;
+padding-right:14%;
+}
 hr {
     clear: left;
+}
+/* Some basic styling to notify users
+   about the tooltips*/
+.tooltip {
+  color: #900;
+  text-decoration: none;
+}
+ 
+.tooltip:hover {
+  color: red;
+  position: relative;
+}
+ /* Tooltip on Bottom. Code taken from http://webdesignerhut.com/pure-css-tooltips-with-html5-data-attribute/?ref=example . */
+.tooltip-bottom[data-tooltip]:hover:after {
+  content: attr(data-tooltip);
+  padding: 1px 8px;
+  position: absolute;
+  width: 10em; 
+ left: 0;
+  top: 90%;
+  white-space: pre-line;
+  background-color: #000;
+  color: #fff;
+}
+/* Tooltip on Top */
+.tooltip-top[data-tooltip]:hover:after {
+  content: attr(data-tooltip);
+  padding: 4px 8px;
+  position: absolute;
+  width: 10em; 
+  left: 0;
+  bottom: 100%;
+  white-space: pre-wrap;
+  z-index: 20px;
+  background-color: #000;
+  color: #fff;
+}
+/* Tooltip on Left */
+.tooltip-left[data-tooltip]:hover:after {
+  content: attr(data-tooltip);
+  padding: 4px 8px;
+  position: absolute;
+  right: 100%;
+  white-space: nowrap;
+  z-index: 20px;
+ 
+  background-color: #000;
+  color: #fff;
 }

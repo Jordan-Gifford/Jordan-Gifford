@@ -1,0 +1,42 @@
+#p_m_intro{
+width:55%;
+padding-left:24%;
+}
+#p_m_intro h2{
+margin-bottom:0px;
+}
+#p_m_intro p{
+margin-top:0px;
+}
+#fireworks{
+width:57%;
+padding-left:22.1%;
+}
+#fireworks h2{
+margin-bottom:0px;
+}
+#fireworks h3{
+margin-top:0px;
+margin-bottom:0px;
+}
+#fireworks p{
+margin-top:1%;
+margin-bottom:1%;
+line-height:1.3em;
+}
+#images{
+padding-left:34%;
+}
+#legislation{
+display:none;
+}
+#perm_and_risks{
+display:none;
+}
+#trip_management{
+width:40%;
+float:left;
+}
+#trip_management p{
+margin-top:0%;
+}

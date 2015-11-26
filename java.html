@@ -7,35 +7,46 @@
     <meta name="keywords" content="Java, Star UML, Oop, Cinema application">
     <meta name="author" content="Jordan Gifford">
 	<link href="static/css/class.css" rel="stylesheet" type="text/css" media="screen">
-    <link href="static/css/java.css" rel="stylesheet" type="text/css" media="screen">
+    <script type="text/javascript" src="static/JavaScript/lightbox.js"></script><!--reference to Java script file called lightbox--> 
+	<link href="static/JavaScript/lightbox.css" rel="stylesheet" type="text/css" /><!--referencing the lightbox CSS document--> 
+	<link href="static/css/java.css" rel="stylesheet" type="text/css" media="screen">
+	<link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'><!--Google fonts-->
     <title>My Personal Portfolio-Java</title>
 </head>
 <body>
 <div class = "header"> <!--Create a div, assign it as a class and name it 'header'-->
-	<h1>My Personal Portfolio</h1>
+	<h1>Jordan Gifford's Personal Portfolio</h1>
 </div>
 <hr> <!--Insert a horizontal line-->
 <nav class="navigation"> <!--Create a primary navigation area, assign it as a class with a title of Navigation-->
 	<a href="index.html">Home</a>
 	<a href="portfolio.html">Portfolio</a>
-	<a href="contact.html">Contact him</a>
+	<a href="contact.html">Contact Me</a>
 </nav><!--Closing Navigation tag-->
 <hr><!--Insert a Horizontal line-->
-<div id= "main_content">
+<nav class="side_nav">
+<h3>Skills</h3>
+	<a href="vb.net.html">VB</a>
+	<a href="html.html">HTML</a>
+	<a href="project_management.html">Project Management</a>
+	<a href="computer_systems">Computer Systems</a>
+	<a href="networking.html">Networking</a>
+	<a href="virtulisation.html">Virtulisation</a>
+	<a href="#">Independent Projects</a>
+</nav>
 <div id="java">
 <h2>Java</h2>
-<p>Through a combination of learning the principles of both Object Orientated Programming or OOP and the Java programming language, I was able to build a cinema system that a client and an administrator could use. For example, an administrator could add and remove a film or move and/or assign a screen to a particular showing. Whereas, a client could input a request to search for films that are current at the cinema, which in theory would bring up a list of films and their relevant information. The client could also book to see a film which would be a quite a long process.</p>
-<!--<img src="static/images/Java.png" alt="Picture of Java logo"/>-->
+<p>Through a combination of learning the principles of both Object Orientated Programming or OOP and the Java programming language, I was able to build a cinema system that a client and an administrator could use. For example, an administrator could add and remove a film or move and/or assign a screen to a particular showing. Whereas, a client could input a request to search for films that are current at the cinema, which in theory would bring up a list of films and their relevant information. The client could also book to see a film which would be a quite a long process.<br>Below are two images of the planning work that I produced for the cinema system.Both items were produced through Star UML.</p>
+<a href="static/images/user_case_diagram.png" rel="lightbox" title="A user case diagram of the cinema system."><img style="padding-left:22%" src="static/images/user_case_diagram_resized.png" alt="language programme" /></a><!--Here is an example of an inline style or in this case inline formatting. I've simply applied a 22% padding to the images separately. Its better practise to keep styles and formatting within their separate or collated css file/s. Also within this nested anchor tag, I have applied some simple Java Script to the image to create a gallery effect. When a user clicks on the resized image it should present a bigger and centred  image with suitable descriptive text over a grey background/overlay.--> 
 </div>
 <div id="star_uml">
 <h3>Star UML</h3> 
 <p>In working out what was part of the solution, I used an application known as 'Star UML'. While using Star UML, I put together a Use Case diagram to work out the function of the application, what kind of data would be stored and who likely would be using it. From producing the use case, I was able to build up a mental image of what steps the user would go through to, for example, book a ticket nevertheless, what I created was a User Journey document. In addition, I also used Star UML to produce the class model and work out the commands that would run within the application to manage the data and it's relevant functions.</p>
-<!--<img src="static/images/star_uml.png" alt="Picture of star uml logo"/>-->
+<a href="static/images/logical_diagram.png" rel="lightbox" title="A logical diagram of the cinema system, displaying the classes that make up a cinema system."><img style="padding-left:22%" src="static/images/logical_diagram_resized.png" alt="language programme"/></a>
 </div>
 <div class="footer">
 	<hr>
 	<p>&copy; 2015</p>
-</div>
 </div>
 </body>
 </html>

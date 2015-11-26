@@ -1,0 +1,22 @@
+body{
+background-color:#E8E8F0;
+}
+@media only screen and (max width:1366px){/*laptop dimension*/
+body{
+background-color:#Yellow;
+}
+}
+@media screen and (min width:) and (max width:){ /*Style details for 21" monitor*/
+
+
+@media screen and (min width:240px) and (max width:420px) and (orienatation: Portrait){/*Smart phone dimensions- Portrait */
+
+
+}
+@media screen and (min width:1200px)(max width:1366px)
+{/*laptop dimension*/
+}
+@media screen and (min width:) and (max width:){ /*Style details for 21" monitor*/
+
+
+}
