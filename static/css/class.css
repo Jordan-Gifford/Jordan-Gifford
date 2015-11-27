@@ -1,20 +1,19 @@
 body{
-background-color:#E8E8F0;
-margin-bottom:0%;
+    background-color:#E8E8F0;
+    margin-bottom:0%;
 }
 .header {
     text-align:center;/*Centre the text*/
 }
 h1{
-font-family: 'Aldrich', sans-serif;
-font-weight:400;
+    font-family: 'Aldrich', sans-serif;
+    font-weight:400;
 }
 .navigation a {
     text-decoration:none; /*Remove underline*/
     font-weight:bold; /*turn the navigation text/links into bold font*/
     color: black; /*output the text in black*/
-    padding-left:10px; /*Give a space of 10px between each link*/
-	position:relative;
+    position:relative;
 }
 
 .navigation a:hover {
@@ -26,15 +25,21 @@ font-weight:400;
 }
 .nav_item{
     float:left;
+    width: 100px;
 }
 .nav_sec{
-padding-left:39%  
+    margin: 0 auto;
+    width: 300px;
+    overflow: visible;
 }
 .showme{/*http://stackoverflow.com/questions/5210033/show-div-on-hover-with-only-css */
-display: none;
+    display: none;
 }
 .showhim:hover .showme{
-display : block;
+    display: block;
+    position: relative;
+    top: 2px;
+    z-index: -10;
 }
 .footer {
     clear:both;
@@ -46,21 +51,21 @@ display : block;
     text-align:left;
 }
 p{
-font-family: 'Yanone Kaffeesatz', sans-serif;
-font-weight:400;
-margin-top:0%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight:400;
+    margin-top:0%;
 }
 h2{
-font-family: 'Oswald', sans-serif;
-font-weight:700;
-text-decoration:underline;
-margin-bottom:0%;
+    font-family: 'Oswald', sans-serif;
+    font-weight:700;
+    text-decoration:underline;
+    margin-bottom:0%;
 }
 h3{
-font-family: 'Oswald', sans-serif;
-font-weight:700;
-text-decoration:underline;
-margin-bottom:0px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:700;
+    text-decoration:underline;
+    margin-bottom:0px;
 }
 .social {
     text-align: center;
@@ -77,65 +82,65 @@ margin-bottom:0px;
     height:24px;
 }
 .side_nav{
-width:20%;
-position:absolute;
-float:left;
+    width:20%;
+    position:absolute;
+    float:left;
 }
 .side_nav a{
-display:block;
+    display:block;
 }
 .main_content{
-padding-left:22%;
-padding-right:14%;
+    padding-left:22%;
+    padding-right:14%;
 }
 hr {
     clear: left;
 }
 /* Some basic styling to notify users
-   about the tooltips*/
+about the tooltips*/
 .tooltip {
-  color: #900;
-  text-decoration: none;
+    color: #900;
+    text-decoration: none;
 }
- 
+
 .tooltip:hover {
-  color: red;
-  position: relative;
+    color: red;
+    position: relative;
 }
- /* Tooltip on Bottom. Code taken from http://webdesignerhut.com/pure-css-tooltips-with-html5-data-attribute/?ref=example . */
+/* Tooltip on Bottom. Code taken from http://webdesignerhut.com/pure-css-tooltips-with-html5-data-attribute/?ref=example . */
 .tooltip-bottom[data-tooltip]:hover:after {
-  content: attr(data-tooltip);
-  padding: 1px 8px;
-  position: absolute;
-  width: 10em; 
- left: 0;
-  top: 90%;
-  white-space: pre-line;
-  background-color: #000;
-  color: #fff;
+    content: attr(data-tooltip);
+    padding: 1px 8px;
+    position: absolute;
+    width: 10em;
+    left: 0;
+    top: 90%;
+    white-space: pre-line;
+    background-color: #000;
+    color: #fff;
 }
 /* Tooltip on Top */
 .tooltip-top[data-tooltip]:hover:after {
-  content: attr(data-tooltip);
-  padding: 4px 8px;
-  position: absolute;
-  width: 10em; 
-  left: 0;
-  bottom: 100%;
-  white-space: pre-wrap;
-  z-index: 20px;
-  background-color: #000;
-  color: #fff;
+    content: attr(data-tooltip);
+    padding: 4px 8px;
+    position: absolute;
+    width: 10em;
+    left: 0;
+    bottom: 100%;
+    white-space: pre-wrap;
+    z-index: 20px;
+    background-color: #000;
+    color: #fff;
 }
 /* Tooltip on Left */
 .tooltip-left[data-tooltip]:hover:after {
-  content: attr(data-tooltip);
-  padding: 4px 8px;
-  position: absolute;
-  right: 100%;
-  white-space: nowrap;
-  z-index: 20px;
- 
-  background-color: #000;
-  color: #fff;
+    content: attr(data-tooltip);
+    padding: 4px 8px;
+    position: absolute;
+    right: 100%;
+    white-space: nowrap;
+    z-index: 20px;
+
+    background-color: #000;
+    color: #fff;
 }
