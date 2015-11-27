@@ -1,13 +1,20 @@
+html {
+    font-size: 65.5%;
+}
+
 body{
     background-color:#E8E8F0;
     margin-bottom:0%;
+    font-size: 1.2rem;
 }
 .header {
     text-align:center;/*Centre the text*/
+    font-size: 3.2rem;
 }
 h1{
     font-family: 'Aldrich', sans-serif;
     font-weight:400;
+    font-size: 2rem;
 }
 .navigation a {
     text-decoration:none; /*Remove underline*/
@@ -22,6 +29,7 @@ h1{
 
 .navigation{
     text-align: center;
+    font-size: 1.6rem;
 }
 .nav_item{
     float:left;
