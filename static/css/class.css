@@ -14,17 +14,28 @@ font-weight:400;
     font-weight:bold; /*turn the navigation text/links into bold font*/
     color: black; /*output the text in black*/
     padding-left:10px; /*Give a space of 10px between each link*/
+	position:relative;
 }
 
 .navigation a:hover {
     text-decoration:underline; /*When mouse hovers over link underline*/
 }
 
-.navigation {
+.navigation{
     text-align: center;
-    clear: left;
 }
-
+.nav_item{
+    float:left;
+}
+.nav_sec{
+padding-left:39%  
+}
+.showme{/*http://stackoverflow.com/questions/5210033/show-div-on-hover-with-only-css */
+display: none;
+}
+.showhim:hover .showme{
+display : block;
+}
 .footer {
     clear:both;
     padding-top:2px;
