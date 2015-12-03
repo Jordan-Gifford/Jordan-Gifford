@@ -115,6 +115,19 @@ h3{
 hr {
     clear: left;
 }
+
+/*Pages with 2 collum layout*/
+.collum_one{
+width:30%;
+float:left;
+    padding-left: 22%;
+}
+.collum_two{
+width:30%;
+float:left;
+    padding-left: 2%;
+} /*Pages with 2 collum layout*/
+
 /* Some basic styling to notify users
 about the tooltips*/
 .tooltip {
