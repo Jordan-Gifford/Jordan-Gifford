@@ -30,16 +30,36 @@ h1{
 .navigation{
     text-align: center;
     font-size: 1.6rem;
+	height:20px;
 }
 .nav_item{
     float:left;
-    width: 100px;
+    width: 80px;
     height: 18px;
+	margin-right:5px;
 }
 .nav_sec{
     margin: 0 auto;
-    width: 300px;
+    width: 360px;
     overflow: visible;
+}
+.nav_home{
+width:51px;
+margin-right: 5px;
+float: left;
+height: 18px;
+}
+.nav_contact{
+width:85px;
+margin-right: 5px;
+float: left;
+height: 18px;
+}
+.nav_qualifications{
+width:110px;
+margin-right: 5px;
+float: left;
+height: 18px;
 }
 .showme{/*http://stackoverflow.com/questions/5210033/show-div-on-hover-with-only-css */
     display: none;
