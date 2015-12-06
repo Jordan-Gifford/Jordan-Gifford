@@ -17,12 +17,28 @@
 	<h1>Jordan Gifford's Personal Portfolio</h1>
 </div>
 <hr> <!--Insert a horizontal line-->
-<nav class="navigation"> <!--Create a primary navigation area, assign it as a class with a title of Navigation-->
-	<a href="index.html">Home</a>
-	<a href="portfolio.html">Portfolio</a>
-	<a href="qualifications.html">Qualifications</a>
-	<a href="contact.html">Contact Me</a>
-</nav><!--Closing Navigation tag-->
+        <nav class="navigation"><!--Create a primary navigation area, assign it as a class with a title of Navigation-->
+        <div class="nav_sec">
+            <div class="nav_home"><a href="index.html">Home</a> |</div>
+            <div class="nav_item">
+                <div class="showhim">
+                    <a href="Portfolio.html">Portfolio</a> |
+                    <div class="showme">
+						<a href="vb.net">VB.net</a> |
+                        <a href="java.html">Java</a> |
+                        <a href="html.html">HTML</a> |
+                        <a href="project_management.html">Project Management</a> |
+                        <a href="computer_systems.html">Computer Systems</a> |
+						<a href="networking.html">Networking</a> |
+						<a href="virtualisation.html">Virtualisation</a> |
+						<a href="independent_projects.html">Independent Projects</a>
+                    </div>
+                </div>
+            </div>
+			 <div class="nav_qualifications"><a href="qualifications.html">Qualifications</a> |</div>
+             <div class="nav_contact"><a href="contact.html">Contact Me</a></div>
+        </div>
+        </nav><!--Closing Navigation tag-->
 <hr><!--Insert a Horizontal line-->
 <nav class="side_nav">
 		<h3>Skills</h3>
@@ -41,6 +57,10 @@
 	<p>By studying Virtualisation, it gave me the knowledge and decision to implement Active Directory through a Virtual Machine which ran Windows Server 2008 R2 edition.</p>
 	<h3>What did I have to do?</h3>
 	<p>At the time I was tasked with theoretically managing several departments who would have access to specific departmental drives and resources and also manage the access and rights towards users. To put it into practise, I created users and computers within department groups known as 'Organisational Units' and after some configuration, created and assigned shared network drives and the access rites to both, groups of users and individual users. Furthermore, I also learnt how to assign File and Disk Quotas to all users. To successfully test my set up and configuration of Active Directory against adding a computer to the domain and checking the rights of specific users, I created a secondary virtual machine, which acted as a client which ran Windows 7 and pointed the details (Computer Name and DNS address) to the Active Directory Server's Virtual Machine.</p>
+	</div>
+	<div class="footer">
+	  <hr>
+            <p>&copy;2015</p>
 	</div>
 	</body>
 </html>
